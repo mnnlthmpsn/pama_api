@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "care_guides",
+  "info": {
+    "singularName": "care-guide",
+    "pluralName": "care-guides",
+    "displayName": "Care Guide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
