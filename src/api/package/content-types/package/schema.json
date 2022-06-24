@@ -26,9 +26,9 @@
     },
     "benefits": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::benefit.benefit",
-      "mappedBy": "package"
+      "inversedBy": "packages"
     }
   }
 }

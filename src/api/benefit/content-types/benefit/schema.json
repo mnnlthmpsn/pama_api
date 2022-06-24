@@ -4,7 +4,8 @@
   "info": {
     "singularName": "benefit",
     "pluralName": "benefits",
-    "displayName": "Benefit"
+    "displayName": "Benefit",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,9 +16,9 @@
       "type": "string",
       "required": true
     },
-    "package": {
+    "packages": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::package.package",
       "inversedBy": "benefits"
     }
