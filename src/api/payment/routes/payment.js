@@ -8,5 +8,13 @@ module.exports = {
                 auth: false
             }
         },
+        {
+            method: 'POST',
+            path: '/callback',
+            handler: 'payment.callbackUrl',
+            config: {
+                auth: false
+            }
+        }
     ]
 }

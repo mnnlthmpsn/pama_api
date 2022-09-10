@@ -37,5 +37,9 @@ module.exports = {
         // ctx.body = { message: "Payment unsuccessful" }
       });
     
+  },
+
+  async callbackUrl(ctx, next) {
+    console.log(ctx.request.body)
   }
 }
